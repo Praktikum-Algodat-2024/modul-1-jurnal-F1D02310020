@@ -1,11 +1,7 @@
 
-public class Node {
+public abstract class Node {
 
-    String data;
-    Node next = null;
-    public Node(String data) {
-        this.data = null;
-        this.data = data;
+    public Node next = null;
 
-    }
+    public abstract String getData();
 }
